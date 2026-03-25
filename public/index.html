@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>Customer Support</h1>
+      <p>Ask us anything about orders, shipping, returns, and more.</p>
+    </div>
+    <div class="chat-messages" id="messages">
+      <div class="message bot-message">
+        <div class="message-bubble">
+          Hi! I'm your support assistant. How can I help you today?
+        </div>
+      </div>
+    </div>
+    <form class="chat-input" id="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="send-btn">Send</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
